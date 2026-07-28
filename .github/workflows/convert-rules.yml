@@ -8,8 +8,12 @@ on:
     branches: [ main, master ]
     paths:
       - 'sr_*.module'
+      - 'scripts/**'
+      - '.github/workflows/**'
 
-# 关键：给 token 开启写权限
+# 消除 Node 20 弃用提示 + 开启写权限
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 permissions:
   contents: write
 
@@ -18,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.0
         with:
-          ref: main # 或 master，与你的默认分支一致
-          fetch-depth: 0 # 拉取完整历史，避免提交失败
+          ref: main
+          fetch-depth: 0
           persist-credentials: true
 
       - name: 拉取原始规则
