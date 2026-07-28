@@ -1,13 +1,17 @@
 name: 转换 Shadowrocket → Clash 规则集
 
 on:
-  workflow_dispatch:          # 支持手动触发
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'      # 每天 UTC 0 点自动更新
+    - cron: '0 0 * * *'
   push:
     branches: [ main, master ]
     paths:
       - 'sr_*.module'
+
+# 关键：给 token 开启写权限
+permissions:
+  contents: write
 
 jobs:
   convert:
@@ -15,20 +19,25 @@ jobs:
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
+        with:
+          ref: main # 或 master，与你的默认分支一致
+          fetch-depth: 0 # 拉取完整历史，避免提交失败
+          persist-credentials: true
 
-      - name: 拉取原始规则（可选）
+      - name: 拉取原始规则
         run: |
-          curl -sL "https://cdn.jsdelivr.net/gh/GMOogway/shadowrocket-rules@master/sr_reject_list.module" -o sr_reject_list.module
-          curl -sL "https://cdn.jsdelivr.net/gh/GMOogway/shadowrocket-rules@master/sr_direct_list.module" -o sr_direct_list.module
-          curl -sL "https://cdn.jsdelivr.net/gh/GMOogway/shadowrocket-rules@master/sr_proxy_list.module" -o sr_proxy_list.module
+          curl -fsSL "https://cdn.jsdelivr.net/gh/GMOogway/shadowrocket-rules@master/sr_reject_list.module" -o sr_reject_list.module
+          curl -fsSL "https://cdn.jsdelivr.net/gh/GMOogway/shadowrocket-rules@master/sr_direct_list.module" -o sr_direct_list.module
+          curl -fsSL "https://cdn.jsdelivr.net/gh/GMOogway/shadowrocket-rules@master/sr_proxy_list.module" -o sr_proxy_list.module
 
       - name: 运行转换脚本
         run: node scripts/convert.js
 
-      - name: 提交规则文件
+      - name: 提交并推送规则
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add rules/
-          git commit -m "更新 Clash 规则集 $(date +'%Y-%m-%d %H:%M')" || echo "无变更需要提交"
-          git push || echo "推送失败或无变更"
+          git add -A rules/ sr_*.module
+          git diff --quiet && echo "✅ 无变更，无需提交" && exit 0
+          git commit -m "🤖 自动更新规则 $(date +'%Y-%m-%d %H:%M')"
+          git push
