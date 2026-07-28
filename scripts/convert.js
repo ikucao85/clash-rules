@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// 配置：输入文件 → 输出文件 + 规则类型
 const MAP = {
   'sr_reject_list.module': { out: 'reject.list', action: 'REJECT' },
   'sr_direct_list.module': { out: 'direct.list', action: 'DIRECT' },
@@ -31,11 +30,11 @@ for (const [inFile, cfg] of Object.entries(MAP)) {
     continue;
   }
   const lines = fs.readFileSync(inPath, 'utf8').split(/\r?\n/);
-  const outLines = [`# 自动转换：${inFile} → ${cfg.out}`, `# 生成时间：${new Date().toLocaleString()}`];
+  const outLines = [`# 来源：${inFile}`, `# 生成时间：${new Date().toLocaleString()}`, '# 格式：Clash classical 规则'];
   lines.forEach(line => {
     const converted = convertLine(line, cfg.action);
     if (converted) outLines.push(converted);
   });
   fs.writeFileSync(path.join(OUT_DIR, cfg.out), outLines.join('\n'), 'utf8');
-  console.log(`生成：${cfg.out}（${outLines.length - 2} 条规则）`);
+  console.log(`✅ 生成：rules/${cfg.out}（${outLines.length - 3} 条）`);
 }
