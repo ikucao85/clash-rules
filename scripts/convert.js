@@ -1,40 +1,49 @@
 const fs = require('fs');
 const path = require('path');
 
+// 输入 → 输出映射：对应类型
 const MAP = {
-  'sr_reject_list.module': { out: 'reject.list', action: 'REJECT' },
-  'sr_direct_list.module': { out: 'direct.list', action: 'DIRECT' },
-  'sr_proxy_list.module': { out: 'proxy.list', action: 'PROXY' }
+  'sr_reject_list.module': 'reject.list',
+  'sr_direct_list.module': 'direct.list',
+  'sr_proxy_list.module': 'proxy.list'
 };
 const OUT_DIR = path.resolve(__dirname, '../rules');
 
-function convertLine(line, defaultAction) {
+/**
+ * 转换为 Loyalsoldier 标准格式：保留 DOMAIN/DOMAIN-SUFFIX 前缀，去掉动作
+ * 示例：DOMAIN-SUFFIX,ad.com,REJECT → DOMAIN-SUFFIX,ad.com
+ */
+function convertLine(line) {
   line = line.trim();
   if (!line || line.startsWith('#') || line.startsWith('[') || !line.includes(',')) return null;
   const parts = line.split(',');
   if (parts.length < 2) return null;
-  const last = parts.length - 1;
-  const lastVal = parts[last].toUpperCase();
-  if (['DIRECT','PROXY','REJECT','REJECT-DROP'].includes(lastVal)) parts.pop();
-  else if (lastVal === 'NO-RESOLVE' && parts.length >= 3) parts.splice(parts.length - 2);
-  parts.push(defaultAction);
-  return parts.join(',');
+  // 保留前两部分（类型+域名），丢弃后面的 DIRECT/PROXY/REJECT/NO-RESOLVE
+  return parts.slice(0, 2).join(',');
 }
 
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
-for (const [inFile, cfg] of Object.entries(MAP)) {
+for (const [inFile, outFile] of Object.entries(MAP)) {
   const inPath = path.join(process.cwd(), inFile);
   if (!fs.existsSync(inPath)) {
     console.warn(`跳过：${inFile} 不存在`);
     continue;
   }
   const lines = fs.readFileSync(inPath, 'utf8').split(/\r?\n/);
-  const outLines = [`# 来源：${inFile}`, `# 生成时间：${new Date().toLocaleString()}`, '# 格式：Clash classical 规则'];
+  const rules = [];
   lines.forEach(line => {
-    const converted = convertLine(line, cfg.action);
-    if (converted) outLines.push(converted);
+    const converted = convertLine(line);
+    if (converted) rules.push(converted);
   });
-  fs.writeFileSync(path.join(OUT_DIR, cfg.out), outLines.join('\n'), 'utf8');
-  console.log(`✅ 生成：rules/${cfg.out}（${outLines.length - 3} 条）`);
+  // 去重 + 按字母排序
+  const unique = [...new Set(rules)].sort();
+  const outLines = [
+    `# 来源：${inFile}`,
+    `# 生成时间：${new Date().toLocaleString()}`,
+    `# 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）`,
+    ...unique
+  ];
+  fs.writeFileSync(path.join(OUT_DIR, outFile), outLines.join('\n'), 'utf8');
+  console.log(`✅ 生成：rules/${outFile}（${unique.length} 条规则）`);
 }
