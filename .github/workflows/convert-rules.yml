@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
   push:
-    branches: [ main, master ]
+    branches: [ main ]
     paths:
       - 'sr_*.module'
       - 'scripts/**'
@@ -36,11 +36,10 @@ jobs:
       - name: 运行转换脚本
         run: node scripts/convert.js
 
-      - name: 强制提交并推送（每次都执行）
+      - name: 强制提交并推送（每次运行都执行）
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add -A rules/ sr_*.module
-          # 关键：删除无变更判断，允许空提交
           git commit -m "🤖 自动更新规则 $(date +'%Y-%m-%d %H:%M')" --allow-empty
           git push
