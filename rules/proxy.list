@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：8/10/2026, 1:16:00 AM
+# 生成时间：8/11/2026, 1:14:18 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -7682,6 +7682,7 @@ DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,disqusservice.com
 DOMAIN-SUFFIX,dit-inc.us
 DOMAIN-SUFFIX,divas.com.uy
+DOMAIN-SUFFIX,divdyn.com
 DOMAIN-SUFFIX,diwodiwo.xyz
 DOMAIN-SUFFIX,diyarbakirescort.com
 DOMAIN-SUFFIX,diyin.org
