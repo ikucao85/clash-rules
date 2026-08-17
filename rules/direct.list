@@ -1,5 +1,5 @@
 # 来源：sr_direct_list.module
-# 生成时间：8/16/2026, 12:57:06 AM
+# 生成时间：8/17/2026, 12:55:13 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
@@ -74538,6 +74538,7 @@ DOMAIN-SUFFIX,qianvisa.com
 DOMAIN-SUFFIX,qianwa.com
 DOMAIN-SUFFIX,qianwanku.com
 DOMAIN-SUFFIX,qianwen.com
+DOMAIN-SUFFIX,qianwenai.com
 DOMAIN-SUFFIX,qianxiangbank.com
 DOMAIN-SUFFIX,qianxibj.net
 DOMAIN-SUFFIX,qianximiye.com
