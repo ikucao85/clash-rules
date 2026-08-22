@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：8/21/2026, 12:57:40 AM
+# 生成时间：8/22/2026, 12:53:49 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -5274,6 +5274,7 @@ DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,brewmp.com
 DOMAIN-SUFFIX,briantreepayments.net
 DOMAIN-SUFFIX,briantreepayments.tv
+DOMAIN-SUFFIX,briarproject.org
 DOMAIN-SUFFIX,bridge-studio.co.uk
 DOMAIN-SUFFIX,bridgebim.com
 DOMAIN-SUFFIX,bridgestone
