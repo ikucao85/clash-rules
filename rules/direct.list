@@ -1,5 +1,5 @@
 # 来源：sr_direct_list.module
-# 生成时间：9/8/2026, 2:36:43 AM
+# 生成时间：9/9/2026, 2:37:28 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
@@ -105030,6 +105030,7 @@ DOMAIN-SUFFIX,yuano.cc
 DOMAIN-SUFFIX,yuanpanguoji.com
 DOMAIN-SUFFIX,yuanqiao.net
 DOMAIN-SUFFIX,yuanqiao.pw
+DOMAIN-SUFFIX,yuanqidesk.com
 DOMAIN-SUFFIX,yuanqilt.com
 DOMAIN-SUFFIX,yuanqingsh.com
 DOMAIN-SUFFIX,yuanqisenlin.com
