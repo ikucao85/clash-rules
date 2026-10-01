@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：9/30/2026, 3:34:00 AM
+# 生成时间：10/1/2026, 3:38:24 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -10321,6 +10321,7 @@ DOMAIN-SUFFIX,futustatic.com
 DOMAIN-SUFFIX,fututrade.com
 DOMAIN-SUFFIX,fututrustee.com
 DOMAIN-SUFFIX,fuxporn.com
+DOMAIN-SUFFIX,fuyin116.com
 DOMAIN-SUFFIX,fuzokudx.com
 DOMAIN-SUFFIX,fw.cm
 DOMAIN-SUFFIX,fxcm-chinese.com
