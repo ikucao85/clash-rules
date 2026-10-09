@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：10/8/2026, 4:02:47 AM
+# 生成时间：10/9/2026, 4:07:47 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -104,6 +104,8 @@ DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,cloudsync-prod.s3.amazonaws.com
 DOMAIN,configuration-lb.ls-apple.com.akadns.net
 DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot-telemetry-service.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN,copilot-workspace.githubnext.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,copilotprodattachments.blob.core.windows.net
@@ -277,6 +279,8 @@ DOMAIN,img-s-msn-com.akamaized.net
 DOMAIN,impala-media-production.s3.amazonaws.com
 DOMAIN,imperial.insendi.com
 DOMAIN,in.appcenter.ms
+DOMAIN,incoming-telemetry.thunderbird.net
+DOMAIN,incoming.telemetry.mozilla.org
 DOMAIN,lastfm-img.freetls.fastly.net
 DOMAIN,lastfm.freetls.fastly.net
 DOMAIN,lazer.ppy.sh
@@ -15680,6 +15684,7 @@ DOMAIN-SUFFIX,meetyourdevices.com
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega.io
 DOMAIN-SUFFIX,mega.nz
+DOMAIN-SUFFIX,megaad.nz
 DOMAIN-SUFFIX,megacamz.com
 DOMAIN-SUFFIX,megaeth.com
 DOMAIN-SUFFIX,megafilmporno.com
@@ -15690,11 +15695,13 @@ DOMAIN-SUFFIX,megalodon.jp
 DOMAIN-SUFFIX,megamarket.ru
 DOMAIN-SUFFIX,megamarket.tech
 DOMAIN-SUFFIX,megamon.co.kr
+DOMAIN-SUFFIX,megapay.nz
 DOMAIN-SUFFIX,megaphone.fm
 DOMAIN-SUFFIX,megapornfreehd.com
 DOMAIN-SUFFIX,megaporno.com.br
 DOMAIN-SUFFIX,megapornpics.com
 DOMAIN-SUFFIX,megaproxy.com
+DOMAIN-SUFFIX,megas4.com
 DOMAIN-SUFFIX,megasrv.de
 DOMAIN-SUFFIX,megatitsminka.com
 DOMAIN-SUFFIX,megogo.net
@@ -23432,6 +23439,7 @@ DOMAIN-SUFFIX,trans500.com
 DOMAIN-SUFFIX,transangels.com
 DOMAIN-SUFFIX,transarmuito.com
 DOMAIN-SUFFIX,transcamslive.com
+DOMAIN-SUFFIX,transfer.it
 DOMAIN-SUFFIX,transferwise.com
 DOMAIN-SUFFIX,translatetheweb.com
 DOMAIN-SUFFIX,translatewiki.net
