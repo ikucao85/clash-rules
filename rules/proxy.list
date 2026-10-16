@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：10/15/2026, 2:48:28 AM
+# 生成时间：10/16/2026, 2:44:46 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -19150,6 +19150,7 @@ DOMAIN-SUFFIX,playshowtv.com
 DOMAIN-SUFFIX,playstation
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,playvalorant.com
 DOMAIN-SUFFIX,playvids.com
 DOMAIN-SUFFIX,playwarcraft3.com
@@ -20911,6 +20912,7 @@ DOMAIN-SUFFIX,scatvids.club
 DOMAIN-SUFFIX,scatville.com
 DOMAIN-SUFFIX,scb.ru
 DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,scea.com
 DOMAIN-SUFFIX,scene7.com
 DOMAIN-SUFFIX,scenesource.me
 DOMAIN-SUFFIX,scharferporno.com
@@ -21879,6 +21881,7 @@ DOMAIN-SUFFIX,sony.com.ni
 DOMAIN-SUFFIX,sony.com.pa
 DOMAIN-SUFFIX,sony.com.pe
 DOMAIN-SUFFIX,sony.com.ph
+DOMAIN-SUFFIX,sony.com.py
 DOMAIN-SUFFIX,sony.com.sg
 DOMAIN-SUFFIX,sony.com.sv
 DOMAIN-SUFFIX,sony.com.tr
@@ -21922,8 +21925,10 @@ DOMAIN-SUFFIX,sonydesign.com
 DOMAIN-SUFFIX,sonydna.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 DOMAIN-SUFFIX,sonyglobalsolutions.jp
+DOMAIN-SUFFIX,sonyinteractive.com
 DOMAIN-SUFFIX,sonykigyo.jp
 DOMAIN-SUFFIX,sonylatvija.com
+DOMAIN-SUFFIX,sonymusic.com.hk
 DOMAIN-SUFFIX,sonynetwork.co.jp
 DOMAIN-SUFFIX,sonypcl.jp
 DOMAIN-SUFFIX,sonypictures.com
