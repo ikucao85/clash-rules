@@ -1,5 +1,5 @@
 # 来源：sr_direct_list.module
-# 生成时间：10/20/2026, 3:01:10 AM
+# 生成时间：10/21/2026, 2:55:52 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
@@ -85804,6 +85804,8 @@ DOMAIN-SUFFIX,sztxsz.com
 DOMAIN-SUFFIX,szty56.com
 DOMAIN-SUFFIX,sztz.org
 DOMAIN-SUFFIX,sztzzs.com
+DOMAIN-SUFFIX,szu.app
+DOMAIN-SUFFIX,szu.moe
 DOMAIN-SUFFIX,szuavia.org
 DOMAIN-SUFFIX,szudad.com
 DOMAIN-SUFFIX,szunionlab.com
