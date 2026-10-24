@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：10/23/2026, 2:58:12 AM
+# 生成时间：10/24/2026, 2:54:43 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -10443,6 +10443,7 @@ DOMAIN-SUFFIX,g.page
 DOMAIN-SUFFIX,g0v.social
 DOMAIN-SUFFIX,g1.com.br
 DOMAIN-SUFFIX,g6hentai.com
+DOMAIN-SUFFIX,ga.jspm.io
 DOMAIN-SUFFIX,gab.com
 DOMAIN-SUFFIX,gabocorp.com
 DOMAIN-SUFFIX,gacebook.com
