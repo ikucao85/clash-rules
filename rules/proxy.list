@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：10/28/2026, 3:35:29 AM
+# 生成时间：10/29/2026, 3:56:08 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -13850,6 +13850,7 @@ DOMAIN-SUFFIX,ius.io
 DOMAIN-SUFFIX,iutunes.com
 DOMAIN-SUFFIX,ivacy.com
 DOMAIN-SUFFIX,ivi.ru
+DOMAIN-SUFFIX,ivi.tv
 DOMAIN-SUFFIX,ivicdn.tv
 DOMAIN-SUFFIX,ivintageporn.com
 DOMAIN-SUFFIX,ivonblog.com
