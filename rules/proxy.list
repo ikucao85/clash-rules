@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：11/16/2026, 4:21:17 AM
+# 生成时间：11/17/2026, 6:05:51 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -7039,6 +7039,7 @@ DOMAIN-SUFFIX,cybertrust.co.jp
 DOMAIN-SUFFIX,cybertrust.ne.jp
 DOMAIN-SUFFIX,cyberx.com
 DOMAIN-SUFFIX,cygames.co.jp
+DOMAIN-SUFFIX,cygames.com
 DOMAIN-SUFFIX,cygames.jp
 DOMAIN-SUFFIX,cygwin.com
 DOMAIN-SUFFIX,cylink.pro
@@ -26825,6 +26826,7 @@ DOMAIN-SUFFIX,yavtube.com
 DOMAIN-SUFFIX,yaya.cyou
 DOMAIN-SUFFIX,yayadizhi.xyz
 DOMAIN-SUFFIX,yazhouse8.com
+DOMAIN-SUFFIX,yb-payment.ru
 DOMAIN-SUFFIX,yccdn.ru
 DOMAIN-SUFFIX,yclients.com
 DOMAIN-SUFFIX,ycombinator.com
