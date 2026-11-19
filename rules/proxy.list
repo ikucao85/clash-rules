@@ -1,5 +1,5 @@
 # 来源：sr_proxy_list.module
-# 生成时间：11/18/2026, 5:33:51 AM
+# 生成时间：11/19/2026, 5:31:51 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -46,6 +46,7 @@ DOMAIN,antigravity-pa.googleapis.com
 DOMAIN,antigravity.googleapis.com
 DOMAIN,aod-pod-uk-live.akamaized.net
 DOMAIN,api-p.videomarket.jp
+DOMAIN,api-siri-prod.apple.com
 DOMAIN,api.msn.com
 DOMAIN,api.statsig.com
 DOMAIN,api.viu.now.com
@@ -97,6 +98,7 @@ DOMAIN,cdn-spotify-experiments.conductrics.com
 DOMAIN,cdn.js7k.com
 DOMAIN,cdn.usefathom.com
 DOMAIN,cdngarenanow-a.akamaihd.net
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,chatscc-hamivideo2.cdn.hinet.net
 DOMAIN,chinapower.csis.org
 DOMAIN,cisco.evergage.com
@@ -264,6 +266,8 @@ DOMAIN,gitlab-assets.oss-cn-hongkong.aliyuncs.com
 DOMAIN,gog-cdn-lumen.secure2.footprint.net
 DOMAIN,gog-cdn.akamaized.net
 DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
+DOMAIN,guzzoni-apple-com.v.aaplimg.com
+DOMAIN,guzzoni.apple.com
 DOMAIN,hamivideo.hinet.net
 DOMAIN,hammerandchisel.ssl.zendesk.com
 DOMAIN,hb.imgix.net
@@ -371,6 +375,7 @@ DOMAIN,nurofensk-prod-env.eu-west-1.elasticbeanstalk.com
 DOMAIN,nvidia.custhelp.com
 DOMAIN,nvidia.tt.omtrdc.net
 DOMAIN,o1158394.ingest.us.sentry.io
+DOMAIN,o33249.ingest.sentry.io
 DOMAIN,ocsp.microsoft.com
 DOMAIN,odc.officeapps.live.com
 DOMAIN,officecdn-microsoft-com.akamaized.net
@@ -400,6 +405,7 @@ DOMAIN,pplx-res.cloudinary.com
 DOMAIN,practivate.adobe.com
 DOMAIN,prd-priconne-redive.akamaized.net
 DOMAIN,preprod-publicca.googleapis.com
+DOMAIN,probe.siri.apple.com
 DOMAIN,prodforza.blob.core.windows.net
 DOMAIN,production-copilot-host-westus.webpubsub.azure.com
 DOMAIN,production-openaicom-storage.azureedge.net
@@ -539,6 +545,9 @@ DOMAIN,scholar.google.si
 DOMAIN,scholar.google.sk
 DOMAIN,scholar.googleusercontent.com
 DOMAIN,scholar.l.google.com
+DOMAIN,seed-sequoia.siri.apple.com
+DOMAIN,seed-swallow.siri.apple.com
+DOMAIN,seed.siri.apple.com
 DOMAIN,self.events.data.microsoft.com
 DOMAIN,sentry.ppy.sh
 DOMAIN,servd-anthropic-website.b-cdn.net
@@ -576,6 +585,8 @@ DOMAIN,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
 DOMAIN,sundry-star-net-geo.trafficmanager.net
 DOMAIN,supercell.helpshift.com
 DOMAIN,supercell.zendesk.com
+DOMAIN,swallow-apple-com.v.aaplimg.com
+DOMAIN,swallow.apple.com
 DOMAIN,t.ssp.hinet.net
 DOMAIN,t21.nikkei.co.jp
 DOMAIN,t21ipau.nikkei.co.jp
@@ -797,6 +808,7 @@ DOMAIN,zftksc.cdn-settings.appsflyersdk.com
 DOMAIN,zftksc.launches.appsflyersdk.com
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
@@ -805,6 +817,7 @@ DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,openaicom-api
+DOMAIN-KEYWORD,siri
 DOMAIN-KEYWORD,skydrive
 DOMAIN-KEYWORD,tiktok
 DOMAIN-SUFFIX,000webhost.com
@@ -1415,6 +1428,7 @@ DOMAIN-SUFFIX,9to5toys.com
 DOMAIN-SUFFIX,9xav.cc
 DOMAIN-SUFFIX,9xlove.xyz
 DOMAIN-SUFFIX,9zipai.net
+DOMAIN-SUFFIX,IP-CIDR
 DOMAIN-SUFFIX,OMAIN-SUFFIX
 DOMAIN-SUFFIX,a-bank.jp
 DOMAIN-SUFFIX,a-hentai.tv
@@ -2712,6 +2726,8 @@ DOMAIN-SUFFIX,appl.com
 DOMAIN-SUFFIX,appl4e.com
 DOMAIN-SUFFIX,appla.com
 DOMAIN-SUFFIX,apple
+DOMAIN-SUFFIX,apple-ai.com
+DOMAIN-SUFFIX,apple-cloudcompute.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-darwin.com
 DOMAIN-SUFFIX,apple-darwin.net
@@ -2730,6 +2746,11 @@ DOMAIN-SUFFIX,apple-online.com
 DOMAIN-SUFFIX,apple-pay.com
 DOMAIN-SUFFIX,apple-pay.rs
 DOMAIN-SUFFIX,apple-pay.wang
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-SUFFIX,apple-store.net
 DOMAIN-SUFFIX,apple-store.wang
 DOMAIN-SUFFIX,apple-studies.com
@@ -6831,6 +6852,7 @@ DOMAIN-SUFFIX,covid19rx.org
 DOMAIN-SUFFIX,cowboom.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,cozydrdrebeats.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN-SUFFIX,cp44.net
 DOMAIN-SUFFIX,cpan.org
 DOMAIN-SUFFIX,cpc.com.tw
@@ -8641,6 +8663,7 @@ DOMAIN-SUFFIX,elephanttube.com
 DOMAIN-SUFFIX,elephanttubenew.com
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabsusercontent.com
 DOMAIN-SUFFIX,elgaronline.com
 DOMAIN-SUFFIX,elgoog.im
 DOMAIN-SUFFIX,elifesciences.org
@@ -10573,6 +10596,7 @@ DOMAIN-SUFFIX,gateimg.com
 DOMAIN-SUFFIX,gateio.live
 DOMAIN-SUFFIX,gateio.services
 DOMAIN-SUFFIX,gateway.dev
+DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,gateway.pinata.cloud
 DOMAIN-SUFFIX,gatewaytorussia.ru
 DOMAIN-SUFFIX,gather.com
@@ -11524,6 +11548,7 @@ DOMAIN-SUFFIX,gsearch.media
 DOMAIN-SUFFIX,gshow.com
 DOMAIN-SUFFIX,gshow.com.br
 DOMAIN-SUFFIX,gslink.us
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-SUFFIX,gsrc.io
 DOMAIN-SUFFIX,gstatic-cn.com
 DOMAIN-SUFFIX,gstatic.com
@@ -15226,6 +15251,7 @@ DOMAIN-SUFFIX,lrfdsoftware.com
 DOMAIN-SUFFIX,lrfz.com
 DOMAIN-SUFFIX,lrip.org
 DOMAIN-SUFFIX,lrysgee.xyz
+DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,lsawards.com
 DOMAIN-SUFFIX,lsd.org.hk
 DOMAIN-SUFFIX,lsj2.shop
@@ -15545,6 +15571,12 @@ DOMAIN-SUFFIX,masalaseen.net
 DOMAIN-SUFFIX,masalladeloslimites.com
 DOMAIN-SUFFIX,mash.to
 DOMAIN-SUFFIX,mashaalradio.com
+DOMAIN-SUFFIX,mask-api.fe.apple-dns.net
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask-t.apple-dns.net
+DOMAIN-SUFFIX,mask.apple-dns.net
+DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-SUFFIX,mask.me
 DOMAIN-SUFFIX,maskedsingerfox.com
 DOMAIN-SUFFIX,massage-in-taipei.com
@@ -21701,6 +21733,7 @@ DOMAIN-SUFFIX,sipml5.org
 DOMAIN-SUFFIX,siport.com
 DOMAIN-SUFFIX,sipriyearbook.org
 DOMAIN-SUFFIX,sirenxxxstudios.com
+DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,siri.com
 DOMAIN-SUFFIX,sis.la
 DOMAIN-SUFFIX,sis001.com
@@ -21849,6 +21882,7 @@ DOMAIN-SUFFIX,smh.com.au
 DOMAIN-SUFFIX,smmsp.xyz
 DOMAIN-SUFFIX,smn.news
 DOMAIN-SUFFIX,smokinmovies.com
+DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,smotreshka.tv
 DOMAIN-SUFFIX,smplace.com
 DOMAIN-SUFFIX,smpte.org
@@ -26791,7 +26825,6 @@ DOMAIN-SUFFIX,yandexdataschool.ru
 DOMAIN-SUFFIX,yandexgo.com
 DOMAIN-SUFFIX,yandexlyceum.ru
 DOMAIN-SUFFIX,yandexwebcache.net
-DOMAIN-SUFFIX,yandexwebcache.org
 DOMAIN-SUFFIX,yango-b2b.com
 DOMAIN-SUFFIX,yango-team.com
 DOMAIN-SUFFIX,yango-tech.com

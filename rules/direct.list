@@ -1,5 +1,5 @@
 # 来源：sr_direct_list.module
-# 生成时间：11/18/2026, 5:33:51 AM
+# 生成时间：11/19/2026, 5:31:50 AM
 # 格式：Clash 标准规则（同 Loyalsoldier/clash-rules）
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
@@ -237,9 +237,6 @@ DOMAIN,gspe85-cn-ssl.ls.apple.com
 DOMAIN,gstatic-cn.com
 DOMAIN,gstaticadssl.l.google.com
 DOMAIN,gtm.oasisfeng.com
-DOMAIN,guzzoni-apple-com.v.aaplimg.com
-DOMAIN,guzzoni.apple.com
-DOMAIN,guzzoni.smoot.apple.com
 DOMAIN,hellofontpreview.oss-cn-beijing.aliyuncs.com
 DOMAIN,hellowebfonts.oss-cn-beijing.aliyuncs.com
 DOMAIN,hospital.pku.edu.cn
@@ -409,7 +406,6 @@ DOMAIN,play.itunes.apple.com
 DOMAIN,play.music.apple.com
 DOMAIN,podcasts.apple.com
 DOMAIN,podcasts.itunes.apple.com
-DOMAIN,probe.siri.apple.com
 DOMAIN,prod-controlbe.floonet.goog
 DOMAIN,prod-databe.floonet.goog
 DOMAIN,prod-support.apple-support.akadns.net
@@ -465,9 +461,6 @@ DOMAIN,sdx.microsoft.com
 DOMAIN,se-edge.itunes.apple.com
 DOMAIN,se2.itunes.apple.com
 DOMAIN,search.itunes.apple.com
-DOMAIN,seed-sequoia.siri.apple.com
-DOMAIN,seed-swallow.siri.apple.com
-DOMAIN,seed.siri.apple.com
 DOMAIN,sequoia.apple.com
 DOMAIN,service.urchin.com
 DOMAIN,sf-api-token-service.itunes.apple.com
@@ -507,8 +500,6 @@ DOMAIN,support-china.apple-support.akadns.net
 DOMAIN,support.apple.com
 DOMAIN,surface.download.prss.microsoft.com
 DOMAIN,surface.downloads.prss.microsoft.com
-DOMAIN,swallow-apple-com.v.aaplimg.com
-DOMAIN,swallow.apple.com
 DOMAIN,swcatalog-cdn.apple.com.akadns.net
 DOMAIN,swcatalog.apple.com
 DOMAIN,swcdn.apple.com
@@ -59582,6 +59573,7 @@ DOMAIN-SUFFIX,lenovocloudos.com
 DOMAIN-SUFFIX,lenovoconnect.com
 DOMAIN-SUFFIX,lenovoeservice.com
 DOMAIN-SUFFIX,lenovofile.com
+DOMAIN-SUFFIX,lenovofuturecenter.com
 DOMAIN-SUFFIX,lenovogame.com
 DOMAIN-SUFFIX,lenovohci.com
 DOMAIN-SUFFIX,lenovohuishang.com
@@ -74249,6 +74241,7 @@ DOMAIN-SUFFIX,qpjylm.com
 DOMAIN-SUFFIX,qpkaifa.com
 DOMAIN-SUFFIX,qplus.com
 DOMAIN-SUFFIX,qplusstatic.com
+DOMAIN-SUFFIX,qpmcn.com
 DOMAIN-SUFFIX,qpoc.com
 DOMAIN-SUFFIX,qpstar.com
 DOMAIN-SUFFIX,qpwater.com
@@ -89033,6 +89026,7 @@ DOMAIN-SUFFIX,troxchina.com
 DOMAIN-SUFFIX,trpc.center
 DOMAIN-SUFFIX,trpc.group
 DOMAIN-SUFFIX,trpc.tech
+DOMAIN-SUFFIX,trpcdn.com
 DOMAIN-SUFFIX,trpcdn.net
 DOMAIN-SUFFIX,trs-logistics.com
 DOMAIN-SUFFIX,trsoft.vip
@@ -106634,6 +106628,7 @@ DOMAIN-SUFFIX,zhaoketang.com
 DOMAIN-SUFFIX,zhaokuaizhao.com
 DOMAIN-SUFFIX,zhaolaobanla.com
 DOMAIN-SUFFIX,zhaoliangji.com
+DOMAIN-SUFFIX,zhaoliangjipc.com
 DOMAIN-SUFFIX,zhaoliming.net
 DOMAIN-SUFFIX,zhaoming.biz
 DOMAIN-SUFFIX,zhaomishijie.com
